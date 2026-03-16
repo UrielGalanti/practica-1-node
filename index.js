@@ -17,7 +17,33 @@
 // console.log(usuario1.username, usuario1.DNI)
 // console.log(usuario2.username, usuario2.DNI)
 
+//4
+// import fs from 'fs'
+// function copiar(archivoOrigen, archivoDestino) {
+//     fs.readFile(archivoOrigen, 'utf-8', (err, data) => {
+//         if (err) {
+//             console.error('Error al leer el archivo:', err);
+//             return;
+//         }
+//         fs.writeFile(archivoDestino, data, (err) => {
+//             if (err) {
+//                 console.error('Error al escribir el archivo:', err);
+//                 return;
+//             }
+
+//             console.log('Archivo copiado correctamente');
+//         });
+//     });
+// }
+// copiar('./entrada.txt', './salida.txt');
+
 //5
-import {parsearUrl} from './src/modules/url.js'
-let objeto = parsearUrl("http://www.ort.edu.ar:8080/alumnos/index.htm?curso=2022&mes=mayo"); 
-console.log(objeto);
+// import descomponerUrl from './src/modules/parsearUrl.js';
+
+// let objeto = descomponerUrl(
+//     "http://www.ort.edu.ar:8080/alumnos/index.htm?curso=2022&mes=mayo"
+// );
+
+// console.log(objeto);
+
+//7
