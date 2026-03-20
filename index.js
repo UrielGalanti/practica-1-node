@@ -47,3 +47,6 @@
 // console.log(objeto);
 
 //7
+import { obtenerMoneda } from "./src/modules/moneda.js";
+let moneda = obtenerMoneda("AR");
+console.log(moneda);
